@@ -21,3 +21,39 @@ Install the required library using pip. Open your terminal or command prompt and
 
 ```bash
 pip install google-cloud-pubsub
+
+## Procedure for GCP Pub/Sub Project
+
+### Step 1: Set Up Google Cloud Project
+1. Create a Google Cloud account.
+2. Create a new project in the Google Cloud Console.
+3. Enable the Google Cloud Pub/Sub API for your project.
+
+### Step 2: Create a Pub/Sub Topic
+1. Navigate to the Pub/Sub section in the Google Cloud Console.
+2. Click **Create Topic** and name your topic (e.g., `your_topic_name`).
+
+### Step 3: Create a Pub/Sub Subscription
+1. Select the topic you created.
+2. Click **Create Subscription** and name your subscription (e.g., `your_topic_name-sub`).
+
+### Step 4: Prepare Your Local Environment
+1. Install Python 3.x on your machine if not already installed.
+2. Install the required library using pip:
+   ```bash
+   pip install google-cloud-pubsub
+
+### Step 5: Authenticate with Google Cloud
+Run the following command to authenticate your application:
+    ```bash
+    gcloud auth application-default login
+This will open a new browser window where you need to select your registered email ID for the GCP account.
+
+### Step 6: Run the Producer and Consumer
+1. Execute producer.py code
+2. Execute consumer.py code
+
+### Step 7: Monitor the Output
+* Check the terminal where the producer is running for published message IDs.
+* Observe the consumer terminal for the processed messages.
+* You can also check the messages in the GCP Pub/Sub UI by navigating to your subscription to see the messages that have been published.
