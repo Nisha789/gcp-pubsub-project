@@ -59,9 +59,7 @@ This will open a new browser window where you need to select your registered ema
 Here are some screenshots demonstrating the output of the project:
 
 - Producer Output: [output/producer_output.png](output/producer_output.png)
-
-![Producer Output](output/producer_output.png)
-![Consumer Output](output/consumer_output.png)
+- Consumer Output: [output/consumer_output.png](output/consumer_output.png)
 
 ## Contributions
 Contributions are welcome! If you'd like to contribute, please fork the repository and submit a pull request with your enhancements.
