@@ -53,7 +53,6 @@ This will open a new browser window where you need to select your registered ema
 * Check the terminal where the producer is running for published message IDs.
 * Observe the consumer terminal for the processed messages.
 * You can also check the messages in the GCP Pub/Sub UI by navigating to your subscription to see the messages that have been published.
-<<<<<<< HEAD
 
 ## Contributions
 Contributions are welcome! If you'd like to contribute, please fork the repository and submit a pull request with your enhancements.
@@ -63,6 +62,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Acknowledgments
 Special thanks to the Google Cloud team for providing the Pub/Sub service and the open-source community for their invaluable contributions.
-=======
-
->>>>>>> b0c558ed541d8295d14789313f20a4538f016675
