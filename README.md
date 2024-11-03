@@ -18,10 +18,8 @@ To run this project, you will need:
 
 ### Installation
 Install the required library using pip. Open your terminal or command prompt and run the following command:
-    ```bash
-    pip install google-cloud-pubsub
+    `pip install google-cloud-pubsub`
 
-```markdown
 ### Procedure for GCP Pub/Sub Project
 
 ### Step 1: Set Up Google Cloud Project
@@ -40,13 +38,11 @@ Install the required library using pip. Open your terminal or command prompt and
 ### Step 4: Prepare Your Local Environment
 1. Install Python 3.x on your machine if not already installed.
 2. Install the required library using pip:
-   ```bash
-   pip install google-cloud-pubsub
+   `pip install google-cloud-pubsub`
 
 ### Step 5: Authenticate with Google Cloud
 Run the following command to authenticate your application:
-    ```bash
-    gcloud auth application-default login
+    `gcloud auth application-default login`
 This will open a new browser window where you need to select your registered email ID for the GCP account.
 
 ### Step 6: Run the Producer and Consumer
