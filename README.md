@@ -18,11 +18,10 @@ To run this project, you will need:
 
 ### Installation
 Install the required library using pip. Open your terminal or command prompt and run the following command:
-
 ```bash
 pip install google-cloud-pubsub
 
-## Procedure for GCP Pub/Sub Project
+### Procedure for GCP Pub/Sub Project
 
 ### Step 1: Set Up Google Cloud Project
 1. Create a Google Cloud account.
