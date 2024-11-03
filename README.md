@@ -1,4 +1,4 @@
-# GCP Pub/Sub
+# GCP Pub/Sub Example
 
 ## Description
 This project demonstrates the use of Google Cloud Pub/Sub, a messaging service for building event-driven systems. The project consists of two main components: a producer that sends messages to a Pub/Sub topic and a consumer that listens for and processes messages from a subscription. This setup enables efficient and scalable communication between different parts of your application.
