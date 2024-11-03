@@ -54,6 +54,13 @@ This will open a new browser window where you need to select your registered ema
 * Observe the consumer terminal for the processed messages.
 * You can also check the messages in the GCP Pub/Sub UI by navigating to your subscription to see the messages that have been published.
 
+## Output
+
+Here are some screenshots demonstrating the output of the project:
+
+![Producer Output](output/producer_output.png)
+![Consumer Output](output/consumer_output.png)
+
 ## Contributions
 Contributions are welcome! If you'd like to contribute, please fork the repository and submit a pull request with your enhancements.
 
